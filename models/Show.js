@@ -1,5 +1,5 @@
 //import our db, Model, DataTypes
-const { db, DataTypes } = require('../db')
+const { db, DataTypes } = require('../db/db')
 
 //Creating a User child class from the Model parent class
 const Show = db.define("shows", {
@@ -9,5 +9,9 @@ const Show = db.define("shows", {
     status: DataTypes.STRING,
 });
 
+
+
+
+
 //exports
-module.exports = { Show }
+module.exports =  Show 
