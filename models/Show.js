@@ -11,7 +11,5 @@ const Show = db.define("shows", {
 
 
 
-
-
 //exports
-module.exports =  Show 
+module.exports = { Show } 
